@@ -11,7 +11,7 @@
 
 | Name | Email | Role |
 |------|--------|------|
-| **[Joseph Schaak]** | [email@umn.edu] | 
+| **Joseph Schaak** | schaa140@umn.edu | 
 | **Ning-Shan Chang** | chang999@umn.edu | 
-| **[Wenhui Cheng]** | [email@umn.edu] | 
+| **Wenhui Cheng** | chen9005@umn.edu | 
 
