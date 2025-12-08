@@ -1,0 +1,10 @@
+transformers
+diffusers
+accelerator
+torch
+numpy
+datasets
+huggingface_hub
+peft
+gradio
+safetensors
