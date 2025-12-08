@@ -4,8 +4,8 @@ Generating images of Golden retrievers using SD v1.5 and LoRA fine-tuning.
 
 ## Team Members
 
-| Name | Email | Role |
-|------|--------|------|
+| Name | Email |
+|------|-------|
 | **Joseph Schaak** | schaa140@umn.edu | 
 | **Ning-Shan Chang** | chan2497@umn.edu | 
 | **Wenhui Cheng** | chen9005@umn.edu | 
@@ -52,8 +52,8 @@ Use the LoRA fine-tuning on the diffusion model to adapt the model for golden re
 
 ```bash
 # Clone repo
-git clone <repo_url>
-cd <repo>
+git clone https://github.com/lynnc03/cv5561-f25-team-dogdetect
+cd cv5561-f25-team-dogdetect
 
 # (optional) Create virtual environment
 python3 -m venv .venv
