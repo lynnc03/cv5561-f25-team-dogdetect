@@ -99,12 +99,33 @@ python sd-lora.py
 
 ## Results
 
-Provide example inputs/outputs or screenshots.
+### Example Results
+| Prompt | SD v1.5 |SD + fine-tuning steps=5 | SD + fine-tuning steps=2000 | SD + fine-tuning steps=15000 |
+|--------|---------|-------------------------|-----------------------------|-----------------------------|
+| (prompt) | (image) | (image) | (image) | (image) |
+
+### Evalutation
+
+| Method | FID | LPIPS | CLIP |
+|--------|-----|-------|------|
+| SD v1.5 |  72.45 | 0.4444 | 0.7529 |
+| SD + fine-tuning steps=5 | 74.30 | 0.4371 | 0.7578 |
+| SD + fine-tuning steps=2000 | 73.87 | 0.4401 | 0.7612 |
+| SD + fine-tuning steps=15000 | 73.64 | 0.4307 | 0.7621 |
+
 
 ## References
 
-SD v1.5: https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main
+**deepanway.** *text_to_image.*  
+Available at: https://huggingface.co/spaces/declare-lab/mustango/blob/293436cffbc0e0e15507bbb031dac78247df681f/diffusers/examples/text_to_image/train_text_to_image_lora.py  
+Accessed: 2025-11-18.
 
-LoRA code: https://huggingface.co/spaces/declare-lab/mustango/blob/293436cffbc0e0e15507bbb031dac78247df681f/diffusers/examples/text_to_image/train_text_to_image_lora.py
+**Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B.** (2022).  
+*High-Resolution Image Synthesis With Latent Diffusion Models.*  
+In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 10684–10695.  
+https://arxiv.org/abs/2112.10752
 
-Dataset: http://vision.stanford.edu/aditya86/ImageNetDogs/
+
+**Stanford Vision Lab.** *ImageNet-Dogs Dataset. Stanford University.* 
+Available at: http://vision.stanford.edu/aditya86/ImageNetDogs/ 
+Accessed: 2025-11-06.
