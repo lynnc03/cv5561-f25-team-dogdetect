@@ -116,16 +116,18 @@ python sd-lora.py
 
 ## References
 
-**deepanway.** *text_to_image.*  
-Available at: https://huggingface.co/spaces/declare-lab/mustango/blob/293436cffbc0e0e15507bbb031dac78247df681f/diffusers/examples/text_to_image/train_text_to_image_lora.py  
+**deepanway.** (2023). <br>
+*text_to_image.*  <br>
+Available at: https://huggingface.co/spaces/declare-lab/mustango/blob/293436cffbc0e0e15507bbb031dac78247df681f/diffusers/examples/text_to_image/train_text_to_image_lora.py  <br>
 Accessed: 2025-11-18.
 
-**Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B.** (2022).  
-*High-Resolution Image Synthesis With Latent Diffusion Models.*  
-In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 10684–10695.  
+**Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B.** (2022).  <br>
+*High-Resolution Image Synthesis With Latent Diffusion Models.*  <br>
+In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 10684–10695.  <br>
 https://arxiv.org/abs/2112.10752
 
 
-**Stanford Vision Lab.** *ImageNet-Dogs Dataset. Stanford University.* 
-Available at: http://vision.stanford.edu/aditya86/ImageNetDogs/ 
+**Stanford Vision Lab.** (2011). <br>
+*ImageNet-Dogs Dataset. Stanford University.* <br>
+Available at: http://vision.stanford.edu/aditya86/ImageNetDogs/ <br>
 Accessed: 2025-11-06.
