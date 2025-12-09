@@ -53,6 +53,10 @@ Use the LoRA fine-tuning on the diffusion model to adapt the model for golden re
 * clip
 * tqdm
 
+In addition to these packages, Stable Diffusion v1.5 must be installed. SD v1.5 can be found on the following HuggingFace directory:
+
+https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/
+
 
 ## Installation
 
