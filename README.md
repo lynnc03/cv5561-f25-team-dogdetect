@@ -34,7 +34,6 @@ Using two methods to produce images of dogs through diffusion models. First, usi
 * peft
 * gradio
 * safetensors
-* os
 * torchvision
 * PIL
 * lpips
