@@ -96,16 +96,6 @@ python sd-lora.py
 (Note: Directories, hardware optimizations, and input text prompts are defined within the script rather than as parameters. Change these in sd-lora.py to match your machine and desired prompts)
 
 ### To generate FID, LPIPS, and CLIP scores:
-
-## Results
-
-### Example Results
-| Prompt | SD v1.5 |SD + fine-tuning steps=5 | SD + fine-tuning steps=2000 | SD + fine-tuning steps=15000 |
-|--------|---------|-------------------------|-----------------------------|-----------------------------|
-| "Golden Retriever" | ![EG1](imgs/eg-pretrained.png) | ![EG2](imgs/eg-lora-5.png) | ![EG3](imgs/eg-lora-2000.png) | ![EG4](imgs/eg-lora-15000.png) |
-
-### Evalutation
-
 ```bash
 import os
 from PIL import Image
@@ -204,6 +194,15 @@ for g_file, r_file in zip(gen_files, real_files):
 print("CLIP similarity mean:", np.mean(clip_scores))
 
 ```
+
+## Results
+
+### Example Results
+| Prompt | SD v1.5 |SD + fine-tuning steps=5 | SD + fine-tuning steps=2000 | SD + fine-tuning steps=15000 |
+|--------|---------|-------------------------|-----------------------------|-----------------------------|
+| "Golden Retriever" | ![EG1](imgs/eg-pretrained.png) | ![EG2](imgs/eg-lora-5.png) | ![EG3](imgs/eg-lora-2000.png) | ![EG4](imgs/eg-lora-15000.png) |
+
+### Evalutation
 
 | Method | FID | LPIPS | CLIP |
 |--------|-----|-------|------|
