@@ -12,10 +12,10 @@
 
 -   [Dependencies](#dependencies)
 -   [Installation](#installation)
--   [Overview-A](#overview-A)
--   [How to Run the Code-A](#how-to-run-the-code-A)
--   [Results-A](#results-A)
--   [References-A](#references-A)
+-   [A-Overview](#A-overview)
+-   [A-How to Run](#A-how-to-run)
+-   [A-Results](#A-results)
+-   [A-References](#A-references)
 
 
 ## Dependencies
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 # Part A - SD v1.5 and Low Rank Adaptation
 
-## Overview-A
+## A-Overview
 
 ### Objective:
 Generate more realistic Golden Retriever images using LoRA (Low-Rank Adaptation) on a pre-existing diffusion model (Stable Diffusion)
@@ -73,7 +73,7 @@ Text prompt → Image of Golden Retriever.
 ### Method
 Use the LoRA fine-tuning on the diffusion model to adapt the model for golden retriever style
 
-## How to Run-A
+## A-How to Run
 
 (Note: Prior to running any LoRA fine-tuning or image generation scripts, first ensure that SD v1.5 is properly installed. Then, `cd path/to/sd-lora`)
 
@@ -113,7 +113,7 @@ python evaluater.py
 ```
 (Note: Directories and input text prompts are hardcoded within the script rather than as parameters. Change these in evaluater.py to match your machine)
 
-## Results-A
+## A-Results
 
 ### Example Results
 | Prompt | SD v1.5 |SD + fine-tuning steps=5 | SD + fine-tuning steps=2000 | SD + fine-tuning steps=15000 |
@@ -130,7 +130,7 @@ python evaluater.py
 | SD + fine-tuning steps=15000 | 73.64 | 0.4307 | 0.7621 |
 
 
-## References-A
+## A-References
 
 **deepanway.** (2023). <br>
 *text_to_image.*  <br>
