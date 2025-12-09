@@ -118,8 +118,8 @@ import numpy as np
 from tqdm import tqdm
 
 #＃ Paths
-real_images_path = "/projects/standard/csci5561/shared/G4/Images/n02099601-golden_retriever"
-generated_images_path = "/projects/standard/csci5561/shared/G4/results/tuning-outputs150"
+real_images_path = "/path/to/Images/n02099601-golden_retriever"
+generated_images_path = "/path/to/results/tuning-outputs150"
 
 # Temporary folders for resized images
 tmp_real = "/tmp/real_resized"
