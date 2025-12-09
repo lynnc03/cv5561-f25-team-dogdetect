@@ -10,28 +10,12 @@
 
 ## Table of Contents
 
--   [Overview](#overview)
 -   [Dependencies](#dependencies)
 -   [Installation](#installation)
--   [How to Run the Code](#how-to-run-the-code)
--   [Results](#results)
--   [References](#references)
-
-# Part A - SD v1.5 and Low Rank Adaptation
-
-## Overview
-
-### Objective:
-Generate more realistic Golden Retriever images using LoRA (Low-Rank Adaptation) on a pre-existing diffusion model (Stable Diffusion)
-
-### Motivation
-Generating lifelike Golden Retriever images not only advances diffusion model research but also highlights how AI-generated animals can bring emotional comfort and support mental health.
-
-### Input/Output
-Text prompt → Image of Golden Retriever.
-
-### Method
-Use the LoRA fine-tuning on the diffusion model to adapt the model for golden retriever style
+-   [Overview-A](#overview-A)
+-   [How to Run the Code-A](#how-to-run-the-code-A)
+-   [Results-A](#results-A)
+-   [References-A](#references-A)
 
 
 ## Dependencies
@@ -53,8 +37,8 @@ Use the LoRA fine-tuning on the diffusion model to adapt the model for golden re
 * clip
 * tqdm
 
-In addition to these packages, Stable Diffusion v1.5 must be installed. SD v1.5 can be found on the following HuggingFace directory:
 
+In addition to these packages, Stable Diffusion v1.5 must be installed. SD v1.5 can be found on the following HuggingFace directory: <br>
 https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/
 
 
@@ -73,7 +57,23 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## How to Run
+# Part A - SD v1.5 and Low Rank Adaptation
+
+## Overview-A
+
+### Objective:
+Generate more realistic Golden Retriever images using LoRA (Low-Rank Adaptation) on a pre-existing diffusion model (Stable Diffusion)
+
+### Motivation
+Generating lifelike Golden Retriever images not only advances diffusion model research but also highlights how AI-generated animals can bring emotional comfort and support mental health.
+
+### Input/Output
+Text prompt → Image of Golden Retriever.
+
+### Method
+Use the LoRA fine-tuning on the diffusion model to adapt the model for golden retriever style
+
+## How to Run-A
 
 (Note: Prior to running any LoRA fine-tuning or image generation scripts, first ensure that SD v1.5 is properly installed. Then, `cd path/to/sd-lora`)
 
@@ -113,7 +113,7 @@ python evaluater.py
 ```
 (Note: Directories and input text prompts are hardcoded within the script rather than as parameters. Change these in evaluater.py to match your machine)
 
-## Results
+## Results-A
 
 ### Example Results
 | Prompt | SD v1.5 |SD + fine-tuning steps=5 | SD + fine-tuning steps=2000 | SD + fine-tuning steps=15000 |
@@ -130,7 +130,7 @@ python evaluater.py
 | SD + fine-tuning steps=15000 | 73.64 | 0.4307 | 0.7621 |
 
 
-## References
+## References-A
 
 **deepanway.** (2023). <br>
 *text_to_image.*  <br>
