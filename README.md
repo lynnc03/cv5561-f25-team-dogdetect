@@ -1,6 +1,4 @@
-# Image Generation with Diffusion: Golden Retriever
-
-Generating images of Golden retrievers using SD v1.5 and LoRA fine-tuning.
+# Dog Image Generation with Diffusion
 
 ## Team Members
 
@@ -18,6 +16,8 @@ Generating images of Golden retrievers using SD v1.5 and LoRA fine-tuning.
 -   [How to Run the Code](#how-to-run-the-code)
 -   [Results](#results)
 -   [References](#references)
+
+# Part A - SD v1.5 and Low Rank Adaptation
 
 ## Overview
 
@@ -131,3 +131,5 @@ https://arxiv.org/abs/2112.10752
 *ImageNet-Dogs Dataset. Stanford University.* <br>
 Available at: http://vision.stanford.edu/aditya86/ImageNetDogs/ <br>
 Accessed: 2025-11-06.
+
+# Part B - Built Diffusion Model
