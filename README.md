@@ -102,7 +102,7 @@ python sd-lora.py
 ### Example Results
 | Prompt | SD v1.5 |SD + fine-tuning steps=5 | SD + fine-tuning steps=2000 | SD + fine-tuning steps=15000 |
 |--------|---------|-------------------------|-----------------------------|-----------------------------|
-| (prompt) | (image) | (image) | (image) | (image) |
+| "Golden Retriever" | ![EG1](imgs/eg-pretrained.png) | ![EG2](imgs/eg-lora-5.png) | ![EG3](imgs/eg-lora-2000.png) | ![EG4](imgs/eg-lora-15000.png) |
 
 ### Evalutation
 
