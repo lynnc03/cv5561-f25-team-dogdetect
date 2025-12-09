@@ -73,12 +73,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## How to Run the Code
+## How to Run
+
+(Note: Prior to running any LoRA fine-tuning or image generation scripts, first ensure that SD v1.5 is properly installed. Then, `cd path/to/sd-lora`)
 
 ### To initiate LoRA fine-tuning:
 ```bash
 python -m accelerate.commands.launch train_text_to_image_lora.py \
-  --pretrained_model_name_or_path="/path/to/stable-diffusion-v1-5" \
+  --pretrained_model_name_or_path="</path/to/stable-diffusion-v1-5>" \
   --resolution=512 --center_crop --random_flip \
   --train_batch_size=1 \
   --gradient_accumulation_steps=4 \
