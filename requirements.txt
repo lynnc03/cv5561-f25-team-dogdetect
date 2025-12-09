@@ -9,7 +9,7 @@ peft
 gradio
 safetensors
 torchvision
-PIL
+Pillow
 lpips
 clip
 tqdm
