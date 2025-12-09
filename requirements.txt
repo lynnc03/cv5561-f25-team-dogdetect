@@ -8,3 +8,9 @@ huggingface_hub
 peft
 gradio
 safetensors
+os
+torchvision
+PIL
+lpips
+clip
+tqdm
