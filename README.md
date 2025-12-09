@@ -153,6 +153,7 @@ DDPM; U-Net transformer.
 ## B-How to Run
 
 ## B-Results
+![EG5](imgs/eg-diffusion.png)
 
 ## References
 
