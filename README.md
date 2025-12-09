@@ -1,4 +1,5 @@
 # Dog Image Generation with Diffusion
+Using two methods to produce images of dogs through diffusion models. First, using a pretrained model (Stable Diffusion v1.5) and Low-Rank Adaptation to fine-tune to generate images of Golden Retrievers. And second, training a diffusion model from scratch to produce images of dogs.
 
 ## Team Members
 
@@ -15,7 +16,10 @@
 -   [A-Overview](#A-overview)
 -   [A-How to Run](#A-how-to-run)
 -   [A-Results](#A-results)
--   [A-References](#A-references)
+-   [B-Overview](#B-overview)
+-   [B-How to Run](#B-how-to-run)
+-   [B-Results](#B-results)
+-   [References](#references)
 
 
 ## Dependencies
@@ -130,7 +134,27 @@ python evaluater.py
 | SD + fine-tuning steps=15000 | 73.64 | 0.4307 | 0.7621 |
 
 
-## A-References
+# Part B - Built Diffusion Model
+
+## B-Overview
+
+### Objective:
+Generate realistic dog images by training a diffusion model from scratch.
+
+### Motivation
+Generating lifelike dog images not only advances diffusion model research but also highlights how AI-generated animals can bring emotional comfort and support mental health.
+
+### Input/Output
+None → Image of a dog.
+
+### Method
+DDPM; U-Net transformer.
+
+## B-How to Run
+
+## B-Results
+
+## References
 
 **deepanway.** (2023). <br>
 *text_to_image.*  <br>
@@ -147,5 +171,3 @@ https://arxiv.org/abs/2112.10752
 *ImageNet-Dogs Dataset. Stanford University.* <br>
 Available at: http://vision.stanford.edu/aditya86/ImageNetDogs/ <br>
 Accessed: 2025-11-06.
-
-# Part B - Built Diffusion Model
