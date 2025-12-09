@@ -46,6 +46,12 @@ Use the LoRA fine-tuning on the diffusion model to adapt the model for golden re
 * peft
 * gradio
 * safetensors
+* os
+* torchvision
+* PIL
+* lpips
+* clip
+* tqdm
 
 
 ## Installation
