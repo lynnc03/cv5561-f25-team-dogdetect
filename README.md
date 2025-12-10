@@ -76,6 +76,9 @@ Text prompt → Image of Golden Retriever.
 ### Method
 Use the LoRA fine-tuning on the diffusion model to adapt the model for golden retriever style
 
+### Dataset
+Stanford Dogs Dataset; Golden Retriever subset: http://vision.stanford.edu/aditya86/ImageNetDogs/
+
 ## A-How to Run
 
 (Note: Prior to running any LoRA fine-tuning or image generation scripts, first ensure that SD v1.5 is properly installed. Then, `cd path/to/sd-lora`)
@@ -149,7 +152,8 @@ None → Image of a dog.
 ### Method
 DDPM; U-Net transformer.
 
-## B-How to Run
+### Dataset
+Entire Stanford Dogs Dataset: http://vision.stanford.edu/aditya86/ImageNetDogs/
 
 ## B-Results
 ![EG5](imgs/eg-diffusion.png)
