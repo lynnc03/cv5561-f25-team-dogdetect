@@ -17,7 +17,6 @@ Using two methods to produce images of dogs through diffusion models. First, usi
 -   [A-How to Run](#A-how-to-run)
 -   [A-Results](#A-results)
 -   [B-Overview](#B-overview)
--   [B-How to Run](#B-how-to-run)
 -   [B-Results](#B-results)
 -   [References](#references)
 
@@ -157,6 +156,8 @@ Entire Stanford Dogs Dataset: http://vision.stanford.edu/aditya86/ImageNetDogs/
 
 ## B-Results
 ![EG5](imgs/eg-diffusion.png)
+
+FID: 177.92, LPIPS: 0.463, CLIP: 0.685
 
 ## References
 
